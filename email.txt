@@ -1,0 +1,31 @@
+Hello,
+
+I have attached the data model from which all the business
+queries can be answered. 
+
+However, while creating the tables,I encountered some trouble 
+handling the data from 'receipts.json'. The issue being that 
+some values in the column having details of the number of items 
+purchased have discripencies with the details for the same in
+another column containing details of the reward receipt items.
+Another issue I faced while handling this data is that it had 
+a lot of missing values in different parts of the file.
+
+Please provide me information regarding handling of the missing
+values, at present, I have transferred all these to a different 
+file.
+
+Before going into production, the data quality in the 'receipts.json'
+needs to be checked for discripencies. 
+
+The rest of the data looks great and is ready to be pushed into production.
+
+Thanks,
+Srivathsav Mitnala 
+
+
+
+
+
+
+
