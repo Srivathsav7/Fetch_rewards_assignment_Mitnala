@@ -1,0 +1,8 @@
+Sample query:
+
+When considering total number of items purchased from receipts with 'rewardsReceiptStatus’ of ‘Accepted’ or ‘Rejected’, which is greater?
+
+SELECT rewardsReceiptStatus, SUM(purchasedItemCount)
+FROM USER_RECEIPT
+GROUP BY rewardsReceiptStatus
+HAVING SUM(purchasedItemCount) = (SELECT MAX(SUM(purchasedItemCount)) FROM USER_RECEIPT GROUP BY rewardsReceiptStatus)
